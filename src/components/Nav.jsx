@@ -29,14 +29,13 @@ function Nav({ isDark, setIsDark }) {
     gsap.to('#nav', {
       scrollTrigger : {
         trigger : '#about',
-        start : 50,
+        start : 100,
         end : 110,
         toggleActions : "play none none reverse"
       },
-      width : "100%",
+      y : -100,
       marginTop : "0px",
       borderRadius : '0',
-      left : '0',
       ease : 'power1.inOut',
       duration : 0.2,
       backgroundFilter : 'blur(10px)'

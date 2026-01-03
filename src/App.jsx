@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import { useState } from 'react'
 import About from './components/About'
+import Skills from './components/Skills'
 
 function App() {
   const [isDark, setIsDark] = useState(false)
@@ -15,6 +16,7 @@ function App() {
       <div className='w-full h-auto bg-linear-to-b from-bg via-secondary to-secondary'>
         <About></About>
       </div>
+      <Skills></Skills>
     </main>
   )
 }

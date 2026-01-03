@@ -50,7 +50,7 @@ function About() {
   }, [])
 
   return (
-    <div id='about' className='relative mt-40 h-250 min-h-dvh w-full bg-secondary z-20 px-[11%] flex flex-row items-center justify-between'>
+    <div id='about' className='relative mt-40 h-200 min-h-dvh w-full bg-secondary z-20 px-[11%] flex flex-row items-center justify-between'>
       <div className='relative flex flex-col gap-10 w-1/2'>
         <h1 className='text-white font-extrabold text-5xl font-h1'>About me</h1>
         <p className='text-white text-3xl font-medium font-inter'>I am an algerian independent front end web-developer, with a focus on user experience and micro interactions, i am passionate about design, coding, and leaving my print on my people.</p>

@@ -12,7 +12,9 @@ function App() {
       <div className='w-screen h-dvh min-h-142'>
         <Hero isDark = {isDark}></Hero>
       </div>
-      <About></About>
+      <div className='w-full h-auto bg-linear-to-b from-bg via-secondary to-secondary'>
+        <About></About>
+      </div>
     </main>
   )
 }

@@ -59,7 +59,7 @@ function Hero({ isDark }) {
   }, [])
 
   return (
-    <div id='hero' className='relative w-full max-w-full h-140 mt-25 rounded-4xl flex flex-row items-center justify-between py-[5%] px-[11%] box-border overflow-hidden'>
+    <div id='hero' className='relative w-full max-w-full h-140 min-h-[calc(100vh-100px)] mt-25 rounded-4xl flex flex-row items-center justify-between py-[5%] px-[11%] box-border overflow-hidden'>
         {!more?<div className='h-full w-1/2 flex flex-col items-start justify-center gap-2'>
             <ul className='z-10 flex flex-row gap-[4%] w-full'>
                 <li id='lihero'><a href=""><img src='/Instagram.png' className={`${isDark===true?"invert-100":null}`}></img></a></li>

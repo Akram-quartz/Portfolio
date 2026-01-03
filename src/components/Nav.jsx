@@ -63,7 +63,6 @@ function Nav({ isDark, setIsDark }) {
           <button><span class="material-symbols-outlined text-text text-3xl! font-extrabold!" onClick={()=>{ToggleDarkMode()}}>dark_mode</span></button>
           <button className='text-sm font-inter font-bold bg-secondary text-white w-26 h-8 rounded-4xl hover:bg-blue-900 hover:scale-105 transition'>Hire me !</button>
         </div>
-        
     </nav>
   )
 }
